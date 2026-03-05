@@ -1,0 +1,70 @@
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#f4f4f4;
+  color:#222;
+}
+
+.site-header{
+  background:#222;
+  color:#fff;
+  padding:16px;
+}
+
+.site-header h1{
+  margin:0 0 10px 0;
+  font-size:24px;
+}
+
+.menu{
+  display:flex;        /* layout requirement */
+  gap:14px;
+  flex-wrap:wrap;
+}
+
+.menu a{
+  color:#fff;
+  text-decoration:none;
+  padding:6px 10px;
+  border:1px solid #444;
+  border-radius:6px;
+}
+
+.menu a:hover{         /* hover requirement */
+  background:#444;
+  transform:scale(1.05);
+  transition:0.2s;
+}
+
+.container{
+  max-width: 900px;
+  margin: 20px auto;   /* margins */
+  padding: 18px;       /* padding */
+  background:#fff;
+  border:1px solid #ddd;
+  border-radius:10px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:12px;
+}
+
+th, td{
+  border:1px solid #ccc;  /* border requirement */
+  padding:10px;
+  text-align:left;
+}
+
+.site-footer{
+  padding:14px;
+  text-align:center;
+  font-size:14px;
+}
+.page-title{
+font-size:32px;
+border-bottom:3px solid #222;
+padding-bottom:10px;
+margin-bottom:20px;
+}
